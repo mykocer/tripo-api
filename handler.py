@@ -19,8 +19,8 @@ def generate_3d_model(image_bytes):
 
     # TripoSR komutu
     cmd = [
-        "python", "tripo/TripoSR/demo.py",
-        "--cfg-path", "tripo/TripoSR/configs/demo.yaml",
+        "python", "tripo/TripoSR2/demo.py",
+        "--cfg-path", "tripo/TripoSR2/configs/demo.yaml",
         "--input-path", input_path,
         "--output-path", output_dir
     ]

@@ -19,7 +19,7 @@ COPY download_model.sh /workspace/download_model.sh
 RUN bash /workspace/download_model.sh
 
 # Çalışma klasörünü ayarla
-WORKDIR /workspace
+WORKDIR /workspacea
 
 # RunPod handler dosyasını kopyala
 COPY handler.py .
